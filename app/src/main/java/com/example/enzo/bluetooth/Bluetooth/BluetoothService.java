@@ -179,7 +179,7 @@ public class BluetoothService {
                 try {
                     socket = mmServerSocket.accept();
                 } catch (IOException e) {
-                    showToast("Socket's accept() method failed");
+//                    showToast("Socket's accept() method failed");
                     break;
                 }
 
